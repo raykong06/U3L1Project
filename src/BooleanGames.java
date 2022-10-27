@@ -45,7 +45,7 @@ public class BooleanGames {
      */
     public boolean isMultipleOf(int x)
     {
-        return (number / x == 1);
+        return (number % x == 0);
     }
 
     /* Returns true if the ones digit of the instance variable, number, is equal
